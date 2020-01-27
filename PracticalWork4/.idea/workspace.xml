@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="acc89a80-5b55-4b88-b0ab-61b0075e079c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../PracticalWork2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticalWork2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PracticalWork3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticalWork3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/work46/Task46.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/work46/Task46.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,17 +30,7 @@
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Application.Task45">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
-      <module name="PracticalWork4" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Task46">
     <configuration name="Task41" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="work41.Task41" />
       <module name="PracticalWork4" />
@@ -93,13 +83,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Task46" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="work46.Task46" />
+      <module name="PracticalWork4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="work46.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Task46" />
         <item itemvalue="Application.Task45" />
         <item itemvalue="Application.Task44" />
         <item itemvalue="Application.Task43" />
         <item itemvalue="Application.Task41" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -126,29 +129,65 @@
       <option name="presentableId" value="Default" />
       <updated>1580144651241</updated>
     </task>
+    <task id="LOCAL-00001" summary="add task46">
+      <created>1580150147093</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1580150147093</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add task46" />
+    <option name="LAST_COMMIT_MESSAGE" value="add task46" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="421" y="29" key="CommitChangelistDialog2" timestamp="1580150145048">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="421" y="29" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1580150145048" />
     <state x="580" y="188" key="FileChooserDialogImpl" timestamp="1580150049612">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="580" y="188" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1580150049612" />
-    <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1580149272053">
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1580151105942">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1580149272053" />
-    <state width="1557" height="222" key="GridCell.Tab.0.center" timestamp="1580149272053">
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1580151105942" />
+    <state width="1557" height="222" key="GridCell.Tab.0.center" timestamp="1580151105942">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1580149272053" />
-    <state width="1557" height="222" key="GridCell.Tab.0.left" timestamp="1580149272053">
+    <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1580151105942" />
+    <state width="1557" height="222" key="GridCell.Tab.0.left" timestamp="1580151105942">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1580149272053" />
-    <state width="1557" height="222" key="GridCell.Tab.0.right" timestamp="1580149272053">
+    <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1580151105942" />
+    <state width="1557" height="222" key="GridCell.Tab.0.right" timestamp="1580151105942">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1580149272053" />
+    <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1580151105942" />
+    <state width="1557" height="276" key="GridCell.Tab.1.bottom" timestamp="1580151089969">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="276" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1580151089969" />
+    <state width="1557" height="276" key="GridCell.Tab.1.center" timestamp="1580151089969">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="276" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1580151089969" />
+    <state width="1557" height="276" key="GridCell.Tab.1.left" timestamp="1580151089969">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="276" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1580151089969" />
+    <state width="1557" height="276" key="GridCell.Tab.1.right" timestamp="1580151089969">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="276" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1580151089969" />
+    <state x="392" y="166" key="Vcs.Push.Dialog.v2" timestamp="1580150152937">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="392" y="166" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1580150152937" />
     <state x="507" y="258" key="com.intellij.ide.util.TipDialog" timestamp="1580149775198">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -157,5 +196,16 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1580146663202" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/work46/Task46.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
