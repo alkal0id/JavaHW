@@ -8,7 +8,7 @@ public class Task46 {
         System.out.println("enter number");
         int input = scan.nextInt();
         int res = 0;
-        while (input / 10 > 0 | input % 10 > 0){
+        while (input > 0){
             res += input % 10 * input % 10;
             input /= 10;
         }
