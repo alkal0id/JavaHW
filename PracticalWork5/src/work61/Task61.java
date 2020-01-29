@@ -1,8 +1,8 @@
-package work51;
+package work61;
 
 import java.util.Scanner;
 
-public class Task51 {
+public class Task61 {
     public static void main(String[] args) {
         System.out.println("Enter triangle side");
         Scanner scan = new Scanner(System.in);
