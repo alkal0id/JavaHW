@@ -14,19 +14,19 @@ public class Task63 {
     }
 
     public static char getFirstCharacterOfWord(String str, int numberWord) {
-        int i = 1;
-        int j = 0;
+        int curentWord = 1;
+        int spacePosition = 0;
         int size = str.length();
         int csize = size - str.lastIndexOf(" ");
-        while (csize < size & j >= 0) {
-            if (i == numberWord){
+        while (csize < size & spacePosition >= 0) {
+            if (curentWord == numberWord){
                 return str.charAt(0);
             }
             else{
-                j = str.indexOf(" ");
-                str = str.substring(j + 1);
-                i ++;
-                csize += j;
+                spacePosition = str.indexOf(" ");
+                str = str.substring(spacePosition + 1);
+                curentWord ++;
+                csize += spacePosition;
             }
         }
         return 0;
