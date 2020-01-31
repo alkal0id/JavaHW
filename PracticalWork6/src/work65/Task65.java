@@ -9,7 +9,37 @@ public class Task65 {
         int input = scan.nextInt();
         printPyramid(input);
     }
-    public static void printPyramid(int height){
+    public static void printPyramid(int height) {
+        int i = 1;
+        int weight = height - 1;
+        while (i <= height) {
+            int j = 0;
+            int k = 1;
+            while (j < weight){
+                if (weight -j - i >= 0) {
+                    System.out.print(" ");
+                }
+                else{
+                    System.out.print(k);
+                    k ++;
+                }
+                j ++;
+            }
+            j = 0;
+            k = i;
+            while (j <= weight){
+                if ( j >= i ) {
+                    System.out.print(" ");
+                }
+                else{
+                    System.out.print(k);
+                    k --;
+                }
+                j ++;
+            }
+            i ++;
+            System.out.print("\n");
 
+        }
     }
 }
