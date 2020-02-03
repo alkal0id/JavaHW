@@ -14,6 +14,9 @@ public class Task71 {
     }
 
     public static int[] createArray(int size){
+        if (size <= 0) {
+            return null;
+        }
         int[] arr = new int[size];
         int i = 2;
         for ( int j = 0; j < size; j ++){
