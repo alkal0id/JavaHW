@@ -19,7 +19,7 @@ public class Task71 {
         }
         int[] arr = new int[size];
         int i = 2;
-        for ( int j = 0; j < size; j ++){
+        for (int j = 0; j < arr.length; j ++){
             arr[j] = i;
             i += 2;
         }
