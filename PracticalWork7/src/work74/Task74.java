@@ -41,7 +41,7 @@ public class Task74 {
             for (int i : arr){
                 System.out.printf("%3d", i);
             }
-            System.out.println("");
+            System.out.print("\n");
         }
     }
 }
