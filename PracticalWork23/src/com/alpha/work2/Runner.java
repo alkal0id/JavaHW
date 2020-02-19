@@ -5,7 +5,7 @@ public class Runner {
             new Rectangle("yellow", 3, 5),
             new Rectangle("black", 7, 2),
             new Rectangle("red", 4, 4),
-            new Circle("white", 22),
+            new Circle("white", 12),
             new Circle("black", 3),
             new Circle("gray", 9),
             new Triangle("blue", 3,4, 5),
@@ -22,7 +22,7 @@ public class Runner {
     public double getAreaSumm(String shapeName){
         double areas = 0;
         for (Shape shape : shapes){
-            if (shape.getClass().getSimpleName() == shapeName){
+            if (shape.getClass().getSimpleName().equals(shapeName)){
                 System.out.println(shape.calcArea());
                 areas += shape.calcArea();
             }
@@ -32,7 +32,7 @@ public class Runner {
 
     public void run(){
         System.out.println(this.getAreaSumm());
-        System.out.println(this.getAreaSumm("Triangle"));
+        System.out.println(this.getAreaSumm("Circle"));
     }
 
 }
