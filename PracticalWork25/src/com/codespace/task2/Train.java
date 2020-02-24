@@ -15,6 +15,10 @@ public class Train {
         this.number = number;
     }
 
+    public Train() {
+        this.number = trainNum++;
+    }
+
     public static int getTrainNum() {
         return trainNum++;
     }
@@ -70,11 +74,11 @@ public class Train {
         this.timeArrival = timeArrival;
     }
 
-    public DaysOfWeek getDays() {
+    public DaysOfWeek[] getDays() {
         return days;
     }
 
-    public void setDays(DaysOfWeek days) {
+    public void setDays(DaysOfWeek[] days) {
         this.days = days;
     }
 

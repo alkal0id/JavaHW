@@ -16,10 +16,7 @@ public class Runner {
 
     public Train createTrain(){
         Scanner scanner = new Scanner(System.in);
-        int i = Train.getTrainNum();
-        System.out.println(i);
-        System.out.println(Train.getTrainNum());
-        Train train = new Train(i);
+        Train train = new Train();
         System.out.println("Enter train stationDispatch");
         train.setStationDispatch(scanner.nextLine());
         System.out.println("Enter train stationArrival");
@@ -29,7 +26,7 @@ public class Runner {
         System.out.println("Enter train timeArrival");
         train.setTimeArrival(scanner.nextLine());
         System.out.println("Enter train days");
-        train.setDays(DaysOfWeek.valueOf(scanner.nextLine().toUpperCase()));
+        train.setDays((scanner.nextLine().toUpperCase().split(" ")));
         return train;
     }
 
